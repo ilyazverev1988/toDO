@@ -1,3 +1,12 @@
-.title {
-    text-align: center;
+.header_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.wrapper_button {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
