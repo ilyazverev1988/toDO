@@ -6,13 +6,8 @@ import DialogContentText from "@mui/material/DialogContentText";
 import TextField from "@mui/material/TextField";
 import DialogActions from "@mui/material/DialogActions";
 import Button from "@mui/material/Button";
-import AdapterDateFns from '@mui/lab/AdapterDateFns';
 import uuid from 'react-uuid';
 import {addTask} from "../../service/workerStore";
-import LocalizationProvider from "@mui/lab/LocalizationProvider";
-import DatePicker from "@mui/lab/DatePicker";
-import ruLocale from 'date-fns/locale/ru';
-import styles from './addTaskButton.module.css';
 
 const AddTaskButton = () => {
     const [open, setOpen] = useState(false);

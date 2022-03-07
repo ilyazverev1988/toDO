@@ -24,7 +24,7 @@ const Task = (props) => {
             <Button variant="contained" onClick={()=>setActive(!active)}>{active ? 'Свернуть': 'Изменить'}</Button>
             <p className={styles.title_text}>Задача: {title}</p>
             {active ?
-                <div>
+                <div className={styles.wrapper_active}>
                     <Input className={styles.input}
                         margin="dense"
                         id="task"

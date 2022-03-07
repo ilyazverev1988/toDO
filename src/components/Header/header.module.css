@@ -10,3 +10,7 @@
     justify-content: space-evenly;
     width: 100%;
 }
+
+.title {
+    text-align: center;
+}
