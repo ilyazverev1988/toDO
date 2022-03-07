@@ -21,7 +21,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier src/**/*.{jsx,js} --write"
   },
   "eslintConfig": {
     "extends": [
@@ -44,15 +45,8 @@
       "last 1 safari version"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
   "devDependencies": {
     "@mui/lab": "^5.0.0-alpha.71",
-    "husky": "7.0.4",
-    "prettier": "2.5.1",
-    "pretty-quick": "3.1.3"
+    "prettier": "2.5.1"
   }
 }
